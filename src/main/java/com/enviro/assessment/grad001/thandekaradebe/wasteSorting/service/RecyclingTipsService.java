@@ -1,7 +1,7 @@
 package com.enviro.assessment.grad001.thandekaradebe.wasteSorting.service;
 
 
-import com.enviro.assessment.grad001.thandekaradebe.wasteSorting.controller.RecyclingTips;
+import com.enviro.assessment.grad001.thandekaradebe.wasteSorting.model.RecyclingTips;
 import com.enviro.assessment.grad001.thandekaradebe.wasteSorting.repository.RecyclingTipsRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

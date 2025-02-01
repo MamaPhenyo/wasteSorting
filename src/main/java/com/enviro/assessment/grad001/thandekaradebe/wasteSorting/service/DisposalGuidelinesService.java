@@ -12,6 +12,7 @@ import java.util.Optional;
 public class DisposalGuidelinesService {
     @Autowired
     private DisposalGuidelinesRepository disposalGuidelinesRepository;
+    private DisposalGuidelines updatedDisposalGuidelines;
 
     public List<DisposalGuidelines> getAllDisposalGuidelines() {
         return disposalGuidelinesRepository.findAll();

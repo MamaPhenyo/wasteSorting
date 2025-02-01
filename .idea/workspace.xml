@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="708bb535-5166-41bf-943b-30bfe2ce2329" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/enviro/assessment/grad001/thandekaradebe/wasteSorting/RecyclingTipsRepositoryTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/enviro/assessment/grad001/thandekaradebe/wasteSorting/WasteRepositoryTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/enviro/assessment/grad001/thandekaradebe/wasteSorting/controller/DisposalGuidelines.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/enviro/assessment/grad001/thandekaradebe/wasteSorting/controller/DisposalGuidelinesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/enviro/assessment/grad001/thandekaradebe/wasteSorting/controller/RecyclingTips.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/enviro/assessment/grad001/thandekaradebe/wasteSorting/controller/RecyclingTipsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/enviro/assessment/grad001/thandekaradebe/wasteSorting/controller/WasteCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/enviro/assessment/grad001/thandekaradebe/wasteSorting/controller/WasteCategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/enviro/assessment/grad001/thandekaradebe/wasteSorting/repository/DisposalGuidelinesRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/enviro/assessment/grad001/thandekaradebe/wasteSorting/repository/DisposalGuidelinesRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/enviro/assessment/grad001/thandekaradebe/wasteSorting/repository/RecyclingTipsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/enviro/assessment/grad001/thandekaradebe/wasteSorting/repository/RecyclingTipsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/enviro/assessment/grad001/thandekaradebe/wasteSorting/repository/WasteCategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/enviro/assessment/grad001/thandekaradebe/wasteSorting/repository/WasteCategoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/enviro/assessment/grad001/thandekaradebe/wasteSorting/service/DisposalGuidelinesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/enviro/assessment/grad001/thandekaradebe/wasteSorting/service/DisposalGuidelinesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/enviro/assessment/grad001/thandekaradebe/wasteSorting/service/RecyclingTipsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/enviro/assessment/grad001/thandekaradebe/wasteSorting/service/RecyclingTipsService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,8 +150,8 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/src/main/java/com/enviro/assessment/grad001/thandekaradebe/wasteSorting/controller/DisposalGuidelines.java</url>
-          <line>15</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/enviro/assessment/grad001/thandekaradebe/wasteSorting/controller/DisposalGuidelinesController.java</url>
+          <line>16</line>
           <properties field="disposalGuidelinesRepository" class="com.enviro.assessment.grad001.thandekaradebe.wasteSorting.controller.DisposalGuidelines" />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
