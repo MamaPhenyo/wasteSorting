@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="708bb535-5166-41bf-943b-30bfe2ce2329" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/enviro/assessment/grad001/thandekaradebe/wasteSorting/service/DisposalGuidelinesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/enviro/assessment/grad001/thandekaradebe/wasteSorting/service/DisposalGuidelinesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/enviro/assessment/grad001/thandekaradebe/wasteSorting/service/RecyclingTipsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/enviro/assessment/grad001/thandekaradebe/wasteSorting/service/RecyclingTipsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/enviro/assessment/grad001/thandekaradebe/wasteSorting/service/WasteCategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/enviro/assessment/grad001/thandekaradebe/wasteSorting/service/WasteCategoryService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
