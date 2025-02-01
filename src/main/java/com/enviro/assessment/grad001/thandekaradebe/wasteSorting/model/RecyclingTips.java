@@ -1,6 +1,5 @@
-package model;
+package com.enviro.assessment.grad001.thandekaradebe.wasteSorting.model;
 
-import com.fasterxml.jackson.databind.annotation.JsonPOJOBuilder;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;

@@ -1,19 +1,22 @@
-package controller;
+package com.enviro.assessment.grad001.thandekaradebe.wasteSorting.controller;
 
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
+import com.enviro.assessment.grad001.thandekaradebe.wasteSorting.repository.DisposalGuidelinesRepository;
 import java.util.List;
+import java.util.Optional;
 
+
+@RequestMapping("/disposal-guidelines")
 public class DisposalGuidelines {
     @Autowired
-    private DisposalGuidelinesRespository disposalGuidelinesRespository;
+    private DisposalGuidelinesRepository disposalGuidelinesRepository;
 
     @GetMapping//Reading
-    public ResponseEntity<List<DisposalGuideLines>> getAllDisposalGuidelines() {
+    public ResponseEntity<List<DisposalGuidelines>> getAllDisposalGuidelines() {
         //Retrieve disposal guidelines from the repo
         List<DisposalGuidelines> disposalGuidelines = disposalGuidelinesRepository.findAll();
         //Retrieved data

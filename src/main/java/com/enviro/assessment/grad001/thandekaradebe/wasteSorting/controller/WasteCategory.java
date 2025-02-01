@@ -1,4 +1,4 @@
-package controller;
+package com.enviro.assessment.grad001.thandekaradebe.wasteSorting.controller;
 
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
