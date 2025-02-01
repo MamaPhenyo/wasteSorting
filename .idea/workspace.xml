@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="708bb535-5166-41bf-943b-30bfe2ce2329" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/enviro/assessment/grad001/thandekaradebe/wasteSorting/RecyclingTipsRepositoryTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/enviro/assessment/grad001/thandekaradebe/wasteSorting/WasteRepositoryTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/enviro/assessment/grad001/thandekaradebe/wasteSorting/service/RecyclingTipsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/enviro/assessment/grad001/thandekaradebe/wasteSorting/service/RecyclingTipsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/enviro/assessment/grad001/thandekaradebe/wasteSorting/service/WasteCategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/enviro/assessment/grad001/thandekaradebe/wasteSorting/service/WasteCategoryService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,21 +86,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WasteSortingApplicationTests (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="wasteSorting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.enviro.assessment.grad001.thandekaradebe.wasteSorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.enviro.assessment.grad001.thandekaradebe.wasteSorting" />
-      <option name="MAIN_CLASS_NAME" value="com.enviro.assessment.grad001.thandekaradebe.wasteSorting.WasteSortingApplicationTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="WasteSortingApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="wasteSorting" />
       <extension name="coverage">
@@ -111,6 +96,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.enviro365.wasteSorting" />
       <option name="MAIN_CLASS_NAME" value="com.enviro365.wasteSorting.WasteSortingApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WasteSortingApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wasteSorting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.enviro.assessment.grad001.thandekaradebe.wasteSorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.enviro.assessment.grad001.thandekaradebe.wasteSorting" />
+      <option name="MAIN_CLASS_NAME" value="com.enviro.assessment.grad001.thandekaradebe.wasteSorting.WasteSortingApplicationTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
