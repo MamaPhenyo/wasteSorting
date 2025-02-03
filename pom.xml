@@ -12,7 +12,7 @@
 	<artifactId>wasteSorting</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>wasteSorting</name>
-	<description>Demo project for Spring Boot</description>
+	<description>The waste sorting app that aims to instill sustainable waste management practices.</description>
 	<url/>
 	<licenses>
 		<license/>

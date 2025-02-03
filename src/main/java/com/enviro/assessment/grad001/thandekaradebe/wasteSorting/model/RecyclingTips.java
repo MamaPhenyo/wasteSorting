@@ -1,9 +1,11 @@
 package com.enviro.assessment.grad001.thandekaradebe.wasteSorting.model;
 
+import com.fasterxml.jackson.databind.annotation.JsonPOJOBuilder;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+
 
 
 @Entity
@@ -17,6 +19,7 @@ public class RecyclingTips {
         this.id = id;
         this.tip = tip;
     }
+
 
     public void setId(Long id) {
         this.id = id;

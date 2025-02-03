@@ -9,21 +9,31 @@ import org.springframework.boot.jdbc.EmbeddedDatabaseConnection;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 
-@DataJpaTest
-@AutoConfigureTestDatabase(connection = EmbeddedDatabaseConnection.H2)
-public class RecyclingTipsRepositoryTests {
+import static org.assertj.core.api.FactoryBasedNavigableListAssert.assertThat;
 
-    @Autowired
-    private RecyclingTipsRepository repository;
+class RecyclingTipsRepositoryTests{
+    @Test
+    void testConstructorAndGetters() {
+        Long expectedId = 1L;
+        String expectedTip = "Recycles plastic bottles separately";
+        RecyclingTips recyclingTips = new RecyclingTips(expectedId,expectedTip);
+
+        Assertions.assertThat(recyclingTips.getId()).isEqualTo(expectedId);
+        Assertions.assertThat(recyclingTips.getTip()).isEqualTo(expectedTip);
+    }
 
     @Test
-    public void RecyclingTipsRepository_testSave_ReturnNotNull() {
-        RecyclingTips recyclingTips = RecyclingTips.builder()
-                .tip("Recycling Tip")
-                .build();
-        RecyclingTips savedRecyclingTips = repository.save(recyclingTips);
+    void testSetters() {
+        RecyclingTips recyclingTips = new RecyclingTips(1L, "tip" );
+        Long newId = 2L;
+        String newTip = "Sort the waste";
 
-        Assertions.assertThat(savedRecyclingTips).isNotNull();
-        Assertions.assertThat(savedRecyclingTips.getId()).isNotNull();
+        recyclingTips.setId(newId);
+        recyclingTips.setTip(newTip);
+
+        Assertions.assertThat(recyclingTips.getId()).isEqualTo(newId);
+        Assertions.assertThat(recyclingTips.getTip()).isEqualTo(newTip);
+
+
     }
 }

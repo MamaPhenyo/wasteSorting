@@ -26,14 +26,14 @@ public class DisposalGuidelinesController {
     }
 
     @PostMapping//Creating
-    public ResponseEntity<DisposalGuidelinesController> createDisposalGuideline(@Valid @RequestBody DisposalGuidelinesController disposalGuideline) {
+    public ResponseEntity<DisposalGuidelines> createDisposalGuideline(@Valid @RequestBody DisposalGuidelines disposalGuideline) {
         //save the new disposal guideline created
-        DisposalGuidelinesController createdDisposalGuideline = disposalGuidelinesRepository.save(disposalGuideline);
+        DisposalGuidelines createdDisposalGuideline = disposalGuidelinesRepository.save(disposalGuideline);
         return ResponseEntity.status(HttpStatus.CREATED).body(createdDisposalGuideline);
     }
 
     @PutMapping("/{id}")//Updating
-    public ResponseEntity<DisposalGuidelines> updateDisposalGuideline(@PathVariable Long id, @Valid @RequestBody DisposalGuidelinesController updatedDisposalGuideline){
+    public ResponseEntity<DisposalGuidelines> updateDisposalGuideline(@PathVariable Long id, @Valid @RequestBody DisposalGuidelines updatedDisposalGuideline){
         Optional<DisposalGuidelines> existingDisposalGuidelineOptional = disposalGuidelinesRepository.findById(id);
         if (existingDisposalGuidelineOptional.isEmpty()) {
             return ResponseEntity.notFound().build();

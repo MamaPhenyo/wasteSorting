@@ -24,19 +24,19 @@ public class RecyclingTipsController {
     }
 
     @PostMapping
-    public ResponseEntity<RecyclingTipsController> createRecyclingTip(@Valid @RequestBody RecyclingTipsController recyclingTip) {
-        RecyclingTipsController createdRecyclingTip = recyclingTipsRepository.save(recyclingTip);
+    public ResponseEntity<RecyclingTips> createRecyclingTip(@Valid @RequestBody RecyclingTips recyclingTip) {
+        RecyclingTips createdRecyclingTip = recyclingTipsRepository.save(recyclingTip);
         return ResponseEntity.status(HttpStatus.CREATED).body(createdRecyclingTip);
     }
 
     @PutMapping("/{id}")
-    public ResponseEntity<RecyclingTips> updateRecyclingTip(@PathVariable Long id, @Valid @RequestBody RecyclingTipsController updatedRecyclingTip) {
+    public ResponseEntity<RecyclingTips> updateRecyclingTip(@PathVariable Long id, @Valid @RequestBody RecyclingTips updatedRecyclingTip) {
         Optional<RecyclingTips> existingRecyclingTipOptional = recyclingTipsRepository.findById(id);
         if (existingRecyclingTipOptional.isEmpty()) {
             return ResponseEntity.notFound().build();
         }
         RecyclingTips existingRecyclingTip = existingRecyclingTipOptional.get();
-        existingRecyclingTip.setTip(updatedRecyclingTip.getTip());
+        //existingRecyclingTip.setTip(updatedRecyclingTip.getTip());
         existingRecyclingTip.setTip(updatedRecyclingTip.getTip());
         RecyclingTips savedRecyclingTip = recyclingTipsRepository.save(existingRecyclingTip);
         return ResponseEntity.ok(savedRecyclingTip);

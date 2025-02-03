@@ -24,8 +24,8 @@ public class WasteCategoryController {
     }
 
     @PostMapping //Creating
-    public ResponseEntity<WasteCategoryController> createWasteCategory(@Valid @RequestBody WasteCategoryController wasteCategory) {
-        WasteCategoryController createdWasteCategory = wasteCategoryRepository.save(wasteCategory);
+    public ResponseEntity<WasteCategory> createWasteCategory(@Valid @RequestBody WasteCategory wasteCategory) {
+        WasteCategory createdWasteCategory = wasteCategoryRepository.save(wasteCategory);
         return ResponseEntity.status(HttpStatus.CREATED).body(createdWasteCategory);
     }
 
